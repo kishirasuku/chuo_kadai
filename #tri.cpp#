@@ -1,0 +1,11 @@
+#include<iostream>
+#include<vector>
+
+struct GridPoint{
+  int x,y;
+};
+
+std::vector<GridPoint> triangle_check(GridPoint a,GridPoint b,GridPoint c){
+  
+}
+
