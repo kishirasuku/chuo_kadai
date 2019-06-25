@@ -1,0 +1,13 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+
+int main(){
+  std::vector<int> items = {2,0,1,9};
+  std::sort(items.begin(),items.end());
+  for(auto x:items){
+    std::cout << x << " ";
+  }
+  std::cout << "\n";
+  return 0;
+}
