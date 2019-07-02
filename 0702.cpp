@@ -1,0 +1,18 @@
+#include<iostream>
+#include<string>
+
+int main(){
+  char c_str1[] = "string";
+  char c_str2[] = "strong";
+  c_str2[3] = 'i';
+  std::cout << (c_str1 == c_str2) << "\n";
+
+  std::string str1 = "string";
+  std::string str2 = "strong";
+  str2[3] = 'i';
+  std::cout << (str1 == str2) << "\n";
+  std::cout << str1 + str2 << "\n";
+  
+  return 0;
+}
+	 
